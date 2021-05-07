@@ -14,13 +14,9 @@ To take an existing solution that works reasonably well on a small dataset and r
 ## Results - The analysis is well described with screenshots and code
 - Using images and examples of your code, compare the stock performance between 2017 and 2018, as well as the execution times of the original script and the refactored script.
 
-![Original 2017 Results](Resources/VBA_Challenge_2017.png)
+![Original 2017 Results](Resources/VBA_Challenge_2017.png)  ![Original 2018 Results](Resources/VBA_Challenge_2018.png)
 
-![Original 2018 Results](Resources/VBA_Challenge_2018.png)
-
-![Refactored 2017 Results](Resources/VBA_Challenge_2017_refactored.png)
-
-![Original 2017 Results](Resources/VBA_Challenge_2018_refactored.png)
+![Refactored 2017 Results](Resources/VBA_Challenge_2017_refactored.png)  ![Refactored 2018 Results](Resources/VBA_Challenge_2018_refactored.png)
 
 ## Summary
 

@@ -19,11 +19,15 @@ During the collection part of the VBA code, beginning at 1a, a ticker symbol is 
 In our particular tests for speed optimization we observe the following speed improvement:
 
 _**Original Solution**_
+
 ![Original 2017 Results](Resources/VBA_Challenge_old_2017.png)
+
 ![Original 2018 Results](Resources/VBA_Challenge_old_2018.png)
 
 _**Refactored Solution**_
+
 ![Refactored 2017 Results](Resources/VBA_Challenge_2017.png)
+
 ![Refactored 2018 Results](Resources/VBA_Challenge_2018.png)
 
 ### Results 

@@ -16,7 +16,7 @@ After reviewing the existing VBA code the following changes were recommended for
 - A new tickerIndex was created as an iterator variable to move down each row of the array tables for each ticker.
 - Four new arrays were created with the goals of saving each ticker symbol, total Volume, starting prices and ending prices
   
-During the collection part of the VBA code, beginning at 1a, a ticker symbol is chosen the tickerIndex is set to zero and the tickervolume array is initialized to zero. All rows pertaining to this particular ticker are iterated through by using the i loop variable. The volume is added, the starting price and ending price are captured and all values are stored into the appropriate array. Once the ticker changes then the tickerIndex increments by one and we continue down the dataset until the next ticker changes and values are captured again. By doing this, we are able to poplate each array with the proper values and only perform a single iteration of the entire dataset. Once all values are captured we can then loop through the ticker symbol one at a time and output the data to the worksheet then apply formatting as required.
+During the collection part of the VBA code, beginning at (1a) - a ticker symbol is chosen, the tickerIndex is set to zero and the tickervolume array is initialized to zero. All rows pertaining to this particular ticker are iterated through by using the i loop variable. The volume is added, the starting price and ending price are captured and all values are stored into the appropriate array. Once the ticker changes, the tickerIndex increments by one and we continue down the dataset until the next ticker value changes and arry values are likewise captured again. By doing this, we are able to poplate each array with the proper values and only perform a single iteration of the entire dataset. Once all values are recorded we can then loop through the ticker symbol one at a time, perform calculations and output the data from the arrays to the worksheet then apply formatting as required.
 
 In our particular tests for speed optimization we observe the following speed improvement:
 
@@ -38,10 +38,10 @@ As can be seen in the results above, the refactored code ran approximately 453% 
 
 ### Summary
 
-#### Advantages/Disadvantages of refactoring Code
+Given the results obtained, we are confident that Steve will be impressed with the performance improvement and his desire to run a much larger dataset using the VBA new code.
 
--There is a detailed statement on the advantages and disadvantages of refactoring code in general?
+As can be seen in this solution there was a great
 
-#### Advantages/Disadvantages of the original code and the refactored VBA script
-
+#### Summary questions to be answered above
+- There is a detailed statement on the advantages and disadvantages of refactoring code in general?
 - There is a detailed statement on the advantages and disadvantages of the original and refactored VBA script

@@ -1,7 +1,7 @@
 
 # Stock Research Analysis
 
-## Overview of Project - Purpose - The purpose and background are well defined
+## Background
 Steve, our client, has recently graduated with his finance degree and his parents have agreed to be his first clients.They are very passionate about green energy and the many different energy alternates available to replace fossil fuels. However, they have a narrow understanding of the different investible companies available that align with their investment philosophy and can help them with their investment goals. Steve has agreed to perform analyses on different green energy companies as he is concerned about having suitable diversification in the their portfolio. As such, a solution was prepared for Steve that allows him to perform these analyses on the desired green energy companies and provide feeback to his parents. At this time, Steve would like to revist this existing solution to include the entire stock market over a number of years.
 
 ## Purpose

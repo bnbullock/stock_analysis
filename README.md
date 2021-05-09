@@ -32,16 +32,16 @@ _**Refactored Solution**_
 
 ![Refactored 2018 Results](Resources/VBA_Challenge_2018.png)
 
-### Results 
+## Results 
 As can be seen in the results above, the refactored code ran approximately 453% faster than the original code. It appears that the refactored code has met the objective of being more robust and faster as per the original plan.
 
 
-### Summary
+## Summary
 
 Given the results obtained, we are confident that Steve will be impressed with the performance improvement and his desire to run a much larger dataset using the VBA new code.
 
 As can be seen in this solution there was a great
 
-#### Summary questions to be answered above
+### Summary questions to be answered above
 - There is a detailed statement on the advantages and disadvantages of refactoring code in general?
 - There is a detailed statement on the advantages and disadvantages of the original and refactored VBA script

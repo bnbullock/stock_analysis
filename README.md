@@ -17,13 +17,16 @@ After reviewing the existing VBA code the following changes were recommended for
 During the collection part of the VBA code, beginning at 1a, a ticker symbol is chosen the tickerIndex is set to zero and the tickervolume array is initialized to zero. All rows pertaining to this particular ticker are iterated through by using the i loop variable. The volume is added, the starting price and ending price are captured and all values are stored into the appropriate array. Once the ticker changes then the tickerIndex increments by one and we continue down the dataset until the next ticker changes and values are captured again. By doing this, we are able to poplate each array with the proper values and only perform a single iteration of the entire dataset. Once all values are captured we can then loop through the ticker symbol one at a time and output the data to the worksheet then apply formatting as required.
 
 In our particular tests for speed optimization we observe the following speed improvement:
-![Original 2017 Results](Resources/VBA_Challenge_old_2017.png)
-![Refactored 2017 Results](Resources/VBA_Challenge_2017.png)
 
+_**Original Solution**_
+![Original 2017 Results](Resources/VBA_Challenge_old_2017.png)
 ![Original 2018 Results](Resources/VBA_Challenge_old_2018.png)
+
+_**Refactored Solution**_
+![Refactored 2017 Results](Resources/VBA_Challenge_2017.png)
 ![Refactored 2018 Results](Resources/VBA_Challenge_2018.png)
 
-### Results - The analysis is well described with screenshots and code
+### Results 
 As can be seen in the results above, the refactored code ran approximately 453% faster than the original code. It appears that the refactored code has met the objective of being more robust and faster as per the original plan.
 
 

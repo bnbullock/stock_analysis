@@ -38,10 +38,13 @@ As can be seen in the results above, the refactored code ran approximately 453% 
 
 ## Summary
 
-Given the results obtained, we are confident that Steve will be impressed with the performance improvement and his desire to run a much larger dataset using the VBA new code.
+Given the results obtained, we are confident that Steve will be impressed with the performance improvement and his desire to run a much larger dataset using the new VBA solution for his stock analyses. From Steve's perspective, the results are exactly the same only faster so it meets his goal to be able to analyse larger datasets in a shorter timeframe.
 
-As can be seen in this solution there was a great
 
-### Summary questions to be answered above
 - There is a detailed statement on the advantages and disadvantages of refactoring code in general?
+As can be seen in this solution refactoring can make the software easier to understand and read. We were also able to improve the design of the VBA code and improve its operational structure while keeping the results exactly the same. Alternatively, refactoring code takes time and the client already has an expectation of how the code should operate. If we need to change this for any reason then we then need to add training time to the deliverable.
+
 - There is a detailed statement on the advantages and disadvantages of the original and refactored VBA script
+
+By using arrays we were able to use more of the faster computer memory to store and retrieve values. In the origoinal design we used a nested loop that iterated through the entire dataset for each ticker symbol. In the new solution we iterated through the dataset exactly one time while capturing all the data for each ticker symbol.
+

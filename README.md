@@ -5,7 +5,9 @@
 Steve, our client, has recently graduated with his finance degree and his parents have agreed to be his first clients.They are very passionate about green energy and the many different energy alternates available to replace fossil fuels. However, they have a narrow understanding of the different investible companies available that align with their investment philosophy and can help them with their investment goals. Steve has agreed to perform analyses on different green energy companies as he is concerned about having suitable diversification in the their portfolio. As such, a solution was prepared for Steve that allows him to perform these analyses on the desired green energy companies and provide feeback to his parents. At this time, Steve would like to revist this existing solution to include the entire stock market over a number of years.
 
 ## Purpose
-We have an exisiting proven VBA solution that helps Steve to prepare the proper analysis for a group of select green energy companies. In order to meet this new requirement we need to look at refactoring the VBA code to make it more robust and faster in order to execute the expanded dataset within a reasonable amount of time. Using Code to automate  analyses allows Steve to reuse it with many different stocks and reduces the chance of accidents and errors.
+Steve has been using a VBA coded solution that has allowed him to run analyses with many different stocks. Thhis existing solution is reusable and allows him to reduce the chance of accidents and errors when performing reliable analyses.
+
+In order to meet this new requirement we need to look at refactoring the VBA code to make it more robust and faster in order to execute the expanded dataset within a reasonable amount of time. We can also perform comparative testing on the old and any new refactored solution that is designed.
 
 ### Code Review and Analysis
 

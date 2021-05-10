@@ -16,24 +16,24 @@ After reviewing the existing VBA code the following changes were recommended for
 - A new tickerIndex was created as an iterator variable to move down each row of the array tables for each ticker symbol.
 - Four new arrays were created with the goals of saving each discrete ticker symbol, total Volume, starting prices and ending prices.
   
-During the row iteration part of the VBA code, beginning at comment (1a) - a ticker symbol is chosen, the tickerIndex is set to zero and the tickervolume array is initialized to zero. All rows pertaining to this particular ticker are iterated through by using the i loop variable. The volume is added, the starting price and ending price are captured and all values are stored into the appropriate array. Once the ticker changes, the tickerIndex increments by one and we continue down the dataset until the next ticker value changes and arry values are likewise captured again. By continuing this path, we are able to poplate each array with the proper values for each ticker and only perform a single iteration of the entire dataset. Once all values are recorded we can then loop through the ticker symbol array one at a time, output data to the worksheet and perform calculations as may be needed. Finally, we can apply formatting to the worksheet as required.
+During the row iteration part of the VBA code, beginning at comment marker (1a) - a ticker symbol is chosen, the tickerIndex is set to zero and the tickervolume array is initialized to zero. All rows pertaining to this particular ticker are iterated through by using the i loop variable. The volume is added, the starting price and ending price are captured and all values are stored into the appropriate array. Once the ticker changes, the tickerIndex increments by one and we continue down the dataset until the next ticker value changes and arry values are likewise captured again. By continuing this path, we are able to poplate each array with the proper values for each ticker and only perform a single iteration of the entire dataset. Once all values are recorded we can then loop through the ticker symbol array one at a time, output data to the worksheet and perform calculations as may be needed. Finally, we can apply formatting to the worksheet as required.
 
 In our particular tests for optimization we observe the following speed improvements:
 
-_**Original Solution**_
+_**Original VBA Solution**_
 
 ![Original 2017 Results](Resources/VBA_Challenge_old_2017.png)
 
 ![Original 2018 Results](Resources/VBA_Challenge_old_2018.png)
 
-_**Refactored Solution**_
+_**Refactored VBA Solution**_
 
 ![Refactored 2017 Results](Resources/VBA_Challenge_2017.png)
 
 ![Refactored 2018 Results](Resources/VBA_Challenge_2018.png)
 
 ## Results 
-As can be seen in the results above, the refactored code ran, on average,approximately 78% faster than the original code. It appears that the refactored code has met the objective of being more robust and faster as per the original expectation.
+As can be seen in the results above, the refactored code ran approximately 78% faster than the original code. It appears that the refactored code has met the objective of being more robust and faster as per the original expectation.
 
 ## Summary
 Given the results obtained, we are confident that Steve will be impressed with the performance improvement and his desire to run a much larger dataset using the new VBA solution for his all stock analyses. From Steve's perspective, the results are exactly the same with a much better execution speed so it meets his goal to be able to analyse larger datasets without long delays. Steve will now be able to provide his parents with much better information and will allow them to make informed philosophical investment decisions to meet their investment goals.
